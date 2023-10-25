@@ -1,4 +1,4 @@
-OE_USER="aghrms1669"
+OE_USER="tvijay1669"
 OE_HOME="/$OE_USER"
 OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
 INSTALL_WKHTMLTOPDF="True"
@@ -90,7 +90,7 @@ else
 fi
 
 echo -e "\n---- Create Aghrms system user ----"
-sudo adduser --system --quiet --shell=/bin/bash --home=$OE_HOME --gecos 'AGHRMS1669' --group $OE_USER
+sudo adduser --system --quiet --shell=/bin/bash --home=$OE_HOME --gecos 'TVIJAY1669' --group $OE_USER
 #The user should also be added to the sudo'ers group.
 sudo adduser $OE_USER sudo
 
